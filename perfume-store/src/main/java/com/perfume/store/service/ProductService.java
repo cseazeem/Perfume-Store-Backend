@@ -39,6 +39,21 @@ public class ProductService {
         if (request.getStock() == null) {
             throw new IllegalArgumentException("Stock cannot be null");
         }
+        if (request.getCategory() == null) {
+            throw new IllegalArgumentException("Category cannot be null");
+        }
+        if (request.getBrand() == null) {
+            throw new IllegalArgumentException("Brand cannot be null");
+        }
+        if (request.getDescription() == null) {
+            throw new IllegalArgumentException("Description cannot be null");
+        }
+        if (request.getPrice() == null) {
+            throw new IllegalArgumentException("Price cannot be null");
+        }
+        if (request.getStock() == null) {
+            throw new IllegalArgumentException("Stock cannot be null");
+        }
         Product product = new Product();
         product.setName(request.getName());
         product.setCategory(request.getCategory());
