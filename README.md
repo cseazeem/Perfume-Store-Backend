@@ -8,4 +8,4 @@ Perfume Store is a backend API for managing a perfume store. The API allows user
 
 1. Clone this repository.
    ```bash
-   git clone https://github.com/your-username/Perfume-Store.git
+   git clone https://github.com/cseazeem/Perfume-Store-Backend.git
